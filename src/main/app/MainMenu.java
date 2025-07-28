@@ -31,7 +31,7 @@ public class MainMenu {
     public static Parent createRoot() {
         // Create animated buttons for menu options.
         Button classicModeBtn = createAnimatedButton("🎮 Classic Mode");
-        Button adventureModeBtn = createAnimatedButton("🕹 Adventure Mode");
+        // Button adventureModeBtn = createAnimatedButton("🕹 Adventure Mode");
         Button leaderboardBtn = createAnimatedButton("🏆 Leaderboard");
         Button settingsBtn = createAnimatedButton("⚙ Settings");
         Button quitBtn = createAnimatedButton("❌ Quit");
@@ -39,12 +39,13 @@ public class MainMenu {
         // Use unified navigation via SceneManager.
         // classicModeBtn.setOnAction(e -> SceneManager.showQuizScene());
         classicModeBtn.setOnAction(e -> ClassicModeSelectionPopup.show());
-        adventureModeBtn.setOnAction(e -> SceneManager.showAdventureMode());
+        // adventureModeBtn.setOnAction(e -> SceneManager.showAdventureMode());
         leaderboardBtn.setOnAction(e -> SceneManager.showLeaderboard());
         settingsBtn.setOnAction(e -> SceneManager.showSettings());
         quitBtn.setOnAction(e -> System.exit(0));
 
-        VBox centerBox = new VBox(30, classicModeBtn, adventureModeBtn, leaderboardBtn, settingsBtn, quitBtn);
+        VBox centerBox = new VBox(30, classicModeBtn, leaderboardBtn, settingsBtn, quitBtn);
+        // VBox centerBox = new VBox(30, classicModeBtn, adventureModeBtn, leaderboardBtn, settingsBtn, quitBtn);
         centerBox.setAlignment(Pos.CENTER);
 
         Label title = new Label("VTU Gamified Quiz App");
