@@ -1,0 +1,38 @@
+/* style.css */
+
+/* Set a gradient background for the entire application */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #1e3c72, #2a5298);
+    -fx-font-family: "Press Start 2P", sans-serif;  /* a retro game-style font */
+}
+
+/* Style for all buttons */
+.button {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0.5, 0, 1);
+}
+
+/* Style for labels */
+.label {
+    -fx-text-fill: #ecf0f1;
+    -fx-font-size: 16px;
+}
+
+/* Style for text fields */
+.text-field {
+    -fx-background-color: #34495e;
+    -fx-text-fill: #ecf0f1;
+    -fx-background-radius: 5;
+    -fx-padding: 5;
+}
+
+/* ScrollPane adjustments (ensure transparency for gamified look) */
+.scroll-pane {
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+    -fx-control-inner-background: transparent;
+}
