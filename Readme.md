@@ -10,7 +10,7 @@
   Timed multiple‑choice questions with combat-style sprite animations and sound cues. Includes code-based questions and a built-in code editor powered by the JDoodle API for real-time code execution.
 
 - **Adventure Mode:**  
-   `Work in Progress`
+   Adventure Mode was planned as a 5th module but was postponed for better gameplay and stability. It may be released as a standalone game later.
 
 - **Matching Tiles:**  
   Flip-and-match style memory game. Players uncover tiles to find matching question-answer pairs, testing logic and retention.
