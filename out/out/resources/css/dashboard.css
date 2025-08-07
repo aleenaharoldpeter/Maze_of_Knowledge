@@ -1,0 +1,47 @@
+/* Overall dashboard layout */
+.root {
+    -fx-background-color: #1e1e1e;
+    -fx-padding: 30;
+}
+
+/* Title styling */
+.title-label {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+
+/* GridPane styling */
+.dashboard-grid {
+    -fx-background-color: #2d2d2d;
+    -fx-padding: 25;
+    -fx-background-radius: 15;
+}
+
+/* Label styling for titles */
+.detail-label {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 16px;
+}
+
+/* Label styling for values */
+.detail-value {
+    -fx-text-fill: #dcdcdc;
+    -fx-font-size: 16px;
+}
+
+/* Button styling */
+.cool-button {
+    -fx-background-color: linear-gradient(to right, #0072ff, #00c6ff);
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+    -fx-font-size: 14px;
+    -fx-padding: 8 20;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 8, 0, 0, 4);
+}
+
+/* Button hover effect */
+.cool-button:hover {
+    -fx-background-color: linear-gradient(to right, #00c6ff, #0072ff);
+}
