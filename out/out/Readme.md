@@ -4,6 +4,14 @@
 
 ---
 
+## 📹 Demo
+
+Check out a quick walkthrough of **Maze of Knowledge**:  
+🎥 [Watch Demo on YouTube](https://www.youtube.com/watch?v=bwtE8abALCU)
+
+
+---
+
 ## 🎮 Game Modes
 
 - **Classic Quiz:**  
@@ -66,8 +74,10 @@
 - [Customization](#customization)
 - [Contributing](#contributing)
 - [License](#license)
+- [Notice](#notice)
 - [Troubleshooting](#troubleshooting)
 - [Acknowledgements](#acknowledgements)
+- [Credits](#credits)
 
 ## Folder Structure
 ```
@@ -356,7 +366,31 @@ Below is a summary of all Java source files and their responsibilities.
 3. Pull Request for review.
 
 ## License
-MIT License – see [LICENSE](LICENSE).
+Apache License 2.0 – see [LICENSE](LICENSE).
+
+## Notice
+Maze of Knowledge
+Copyright 2025 Aleena Harold Peter
+
+This product includes software developed by:
+- JDoodle (for code execution via API)
+- Supabase (for authentication and database)
+- JavaFX (UI toolkit)
+- Google Gson (JSON parsing)
+
+This product includes multimedia assets (sprites, sound, and design elements) licensed under:
+- Liberated Pixel Cup (LPC): CC BY-SA 3.0 – See CREDITS.csv
+- Itch.io assets by Clembod, chierit, LuizMelo, Brullov, etc. – See linked licenses in README
+- Pixabay Sound Effects: Pixabay License – Royalty-free
+
+No modifications were made to these assets unless otherwise stated in the documentation.
+
+Additional thanks to:
+- Chris Courses – Inspiration for fighting game mechanics
+- Microsoft Designer – For generating specific UI assets
+
+Apache License, Version 2.0 applies to the source code unless otherwise noted.
+
 
 ## Troubleshooting
 - **JavaFX issues**: Validate module paths and SDK version.
@@ -368,3 +402,71 @@ MIT License – see [LICENSE](LICENSE).
 - **Supabase** – Backend service  
 - **JDoodle API** – Code execution  
 - **Google Gson** – JSON parsing
+
+## Credits
+
+## Quiz & Mascot
+
+### Player
+- [*SHADOW Series – The Blind Huntress Escape*](https://itch.io/queue/c/4691964/heroes?game_id=2599294&password=)  
+- [*Professor Grumps*](https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator/#?body=Body_color_light&head=Human_male_light)  
+- [*Sarah Holy Knight*](https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator/#?body=Body_color_light&head=Human_male_light)  
+
+### Computer
+- [*Bringer Of Death (Free)*](https://clembod.itch.io/bringer-of-death-free) by Clembod  
+- [*Demon King*](https://chierit.itch.io/boss-demon-slime) by chierit  
+- [*Boss: Frost Guardian*](https://chierit.itch.io/boss-frost-guardian) by chierit  
+
+*Professor Grumps* and *Sarah Holy Knight* were generated using the *Liberated Pixel Cup (LPC) Character Generator*.  
+
+<details>
+<summary>Click to expand full list of LPC contributors</summary>
+
+Sprites by: Johannes Sjölund (wulax), Michael Whitlock (bigbeargames), Matthew Krohn (makrohn), Nila122, David Conway Jr. (JaidynReiman), Carlo Enrico Victoria (Nemisys), Thane Brimhall (pennomi), laetissima, bluecarrot16, Luke Mehl, Benjamin K. Smith (BenCreating), MuffinElZangano, Durrani, kheftel, Stephen Challener (Redshrike), William Thompsonj, Marcel van de Steeg (MadMarcel), TheraHedwig, Evert, Pierre Vigier (pvigier), Eliza Wyatt (ElizaWy), Sander Frenken (castelonia), dalonedrau, Lanea Zimmerman (Sharm), Manuel Riecke (MrBeast), Barbara Riviera, Joe White, Mandi Paugh, Shaun Williams, Daniel Eddeland (daneeklu), Emilio J. Sanchez-Sierra, drjamgo, gr3yh47, tskaufma, Fabzy, Yamilian, Skorpio, Tuomo Untinen (reemax), Tracy, thecilekli, LordNeo, Stafford McIntyre, PlatForge project, DCSS authors, DarkwallLKE, Charles Sanchez (CharlesGabriel), Radomir Dopieralski, macmanmatty, Cobra Hubbard (BlueVortexGames), Inboxninja, kcilds/Rocetti/Eredah, Napsio (Vitruvian Studio), The Foreman, AntumDeluge  
+
+Source: Sprites contributed as part of the [Liberated Pixel Cup project](https://opengameart.org/content/lpc-collection)  
+License: [Creative Commons Attribution-ShareAlike 3.0](http://creativecommons.org/licenses/by-sa/3.0/)  
+Detailed credits: [See full credits](CREDITS.csv)
+
+</details>
+
+---
+
+## 1v1 Fighting Sprites
+- [*Martial Hero*](https://luizmelo.itch.io/martial-hero) by LuizMelo  
+- [*Martial Hero 2*](https://luizmelo.itch.io/martial-hero-2) by LuizMelo  
+- [*Fireball*](https://pixabay.com/vectors/fireball-comet-meteor-fire-417899/)  
+- [*Oak Woods Environment Asset*](https://brullov.itch.io/oak-woods) by Brullov  
+
+---
+
+## Leaderboard
+- arena_bg and bulb — Generated using *Microsoft Designer*
+
+---
+
+## Tutorials & Inspiration
+- [*Chris Courses – JavaScript Fighting Game Tutorial*](https://www.youtube.com/watch?v=vyqbNFMDRGQ)
+
+---
+
+# 🎵 Sound Effects
+
+| Sound      | Author                 | Link |
+|------------|------------------------|------|
+| Tile Flip  | u_y3wk5ympz8          | [Listen](https://pixabay.com/sound-effects/flip-switch-304548/) |
+| Wrong      | KevinVG207 (Freesound) | [Listen](https://pixabay.com/sound-effects/wrong-buzzer-6268/) |
+| Snow       | JCI-21                 | [Listen](https://pixabay.com/sound-effects/wind-blowing-sfx-12809/) |
+| Rain       | JCI-21                 | [Listen](https://pixabay.com/sound-effects/rain-sfx-12819/) |
+| Summer     | Nasrx15               | [Listen](https://pixabay.com/sound-effects/anime-cicadas-chirping-satisfying-261810/) |
+| Autumn     | MIGHTUSER             | [Listen](https://pixabay.com/sound-effects/sound-of-rustling-leaves-in-a-light-breeze-hd-260729/) |
+| Applause   | Gronkjaer (Freesound) | [Listen](https://pixabay.com/sound-effects/rightanswer-95219/) |
+
+*License:* [Pixabay License](https://pixabay.com/service/license/) (royalty-free, attribution not required but appreciated)
+
+---
+
+## Licenses Summary
+- *Liberated Pixel Cup (LPC):* [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)  
+- *Pixabay Sounds & Graphics:* [Pixabay License](https://pixabay.com/service/license/)  
+- *Other Itch.io Assets:* License as per respective creators (linked above)
