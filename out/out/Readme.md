@@ -77,6 +77,7 @@ Check out a quick walkthrough of **Maze of Knowledge**:
 - [Notice](#notice)
 - [Troubleshooting](#troubleshooting)
 - [Acknowledgements](#acknowledgements)
+- [Security & History](#security--history)
 - [Credits](#credits)
 
 ## Folder Structure
@@ -402,6 +403,15 @@ Apache License, Version 2.0 applies to the source code unless otherwise noted.
 - **Supabase** – Backend service  
 - **JDoodle API** – Code execution  
 - **Google Gson** – JSON parsing
+
+## Security & History
+
+This repository originally contained credentials, oversized binaries, and temporary build artifacts committed by mistake.
+
+To prevent any security leaks or unnecessary bloat, the repository was cleaned with [git-filter-repo](https://github.com/newren/git-filter-repo), and the commit history was reset.
+
+All current code is original, production-safe, and written by the author.
+For the 1v1 fighting mode, I adapted core logic and gameplay ideas from a JavaScript course by Chris Courses.
 
 ## Credits
 
